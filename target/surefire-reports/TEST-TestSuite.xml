@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="161.801" tests="27" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\sooryen\eclipse-workspace\1800FlowersProduction"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\sooryen\eclipse-workspace\1800FlowersProduction"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\sooryen\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\sooryen\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8300002657937281353.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\sooryen\AppData\Local\Android\Sdk\tools;C:\Users\sooryen\AppData\Local\Android\Sdk\platform-tools;C:\Users\sooryen\Downloads\apache-maven-3.6.1\bin;C:\Users\sooryen\AppData\Local\Microsoft\WindowsApps;C:\Users\sooryen\AppData\Roaming\npm;C:\Program Files\Java\jdk-11;;C:\Users\sooryen\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\sooryen"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="sooryen"/>
+    <property name="java.class.path" value="C:\Users\sooryen\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.12.0.20190529-1915\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_211\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\sooryen\eclipse-workspace\1800FlowersProduction\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="addTestCaseName" classname="com.flowers.testcases.TC1_Home" time="0.022"/>
+  <testcase name="verifyBrowserLaunched" classname="com.flowers.testcases.TC1_Home" time="0.009"/>
+  <testcase name="verifyHomeTitle" classname="com.flowers.testcases.TC1_Home" time="0.014"/>
+  <testcase name="verifyLogo" classname="com.flowers.testcases.TC1_Home" time="0.036"/>
+  <testcase name="verifyMouseHover" classname="com.flowers.testcases.TC1_Home" time="0.153"/>
+  <testcase name="addTestCaseName" classname="com.flowers.testcases.TC3_SignIn" time="0.004"/>
+  <testcase name="verifySwitchWindow" classname="com.flowers.testcases.TC3_SignIn" time="0.324"/>
+  <testcase name="verifySignInPopUpTitle" classname="com.flowers.testcases.TC3_SignIn" time="4.384"/>
+  <testcase name="verifySignInWithBlankDataFields" classname="com.flowers.testcases.TC3_SignIn" time="0.542"/>
+  <testcase name="verifySignInWithBlankEmail" classname="com.flowers.testcases.TC3_SignIn" time="0.423"/>
+  <testcase name="verifySignInWithBlankPassword" classname="com.flowers.testcases.TC3_SignIn" time="0.36"/>
+  <testcase name="verifySignInWithInvalidData" classname="com.flowers.testcases.TC3_SignIn" time="0.335"/>
+  <testcase name="verifySignInWithInvalidEmail" classname="com.flowers.testcases.TC3_SignIn" time="0.388"/>
+  <testcase name="verifySignInWithInvalidPassword" classname="com.flowers.testcases.TC3_SignIn" time="0.3"/>
+  <testcase name="verifySignInWithValidData" classname="com.flowers.testcases.TC3_SignIn" time="22.268"/>
+  <testcase name="addTestCaseName" classname="com.flowers.testcases.TC4_SearchByKeyword" time="0.003"/>
+  <testcase name="verifyBlankSearch" classname="com.flowers.testcases.TC4_SearchByKeyword" time="0.122"/>
+  <testcase name="verifyInvalidSearch" classname="com.flowers.testcases.TC4_SearchByKeyword" time="3.593"/>
+  <testcase name="verifySearchResultsTitle" classname="com.flowers.testcases.TC4_SearchByKeyword" time="0.012"/>
+  <testcase name="verifyNumberOfSearchResults" classname="com.flowers.testcases.TC4_SearchByKeyword" time="56.103"/>
+  <testcase name="verifySearchResultsFirst" classname="com.flowers.testcases.TC4_SearchByKeyword" time="8.361"/>
+  <testcase name="verifyValidSearch" classname="com.flowers.testcases.TC4_SearchByKeyword" time="18.809"/>
+  <testcase name="addTestCaseName" classname="com.flowers.testcases.TC5_SearchByProductCode" time="0.011"/>
+  <testcase name="verifyBlankSearch" classname="com.flowers.testcases.TC5_SearchByProductCode" time="0.537"/>
+  <testcase name="verifyInvalidSearch" classname="com.flowers.testcases.TC5_SearchByProductCode" time="3.205"/>
+  <testcase name="verifySearchResultsTitle" classname="com.flowers.testcases.TC5_SearchByProductCode" time="0.008"/>
+  <testcase name="verifyValidSearch" classname="com.flowers.testcases.TC5_SearchByProductCode" time="17.778">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;pdp__prodCode&apos;]&quot;}&#10;  (Session info: chrome=76.0.3809.100)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;SIL-WIN-17&apos;, ip: &apos;10.116.186.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\sooryen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: d590b26b66ca7c7ad99cb03763970649&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;pdp__prodCode&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='pdp__prodCode']"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SIL-WIN-17', ip: '10.116.186.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\sooryen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d590b26b66ca7c7ad99cb03763970649
+*** Element info: {Using=xpath, value=//div[@class='pdp__prodCode']}
+	at com.flowers.testcases.TC5_SearchByProductCode.verifyValidSearch(TC5_SearchByProductCode.java:41)
+</failure>
+  </testcase>
+</testsuite>

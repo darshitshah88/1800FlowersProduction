@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.flowers.testcases.TC_Module1_Home">
+        <methods>
+          <include name="verifyMouseHover"/>
+          <include name="verifyAddTestCaseName"/>
+          <include name="startExecution"/>
+          <include name="verifyBrowserLaunched"/>
+          <include name="verifyDisplayLogo"/>
+          <include name="verifyHomeTitle"/>
+          <include name="stopExecution"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.flowers.testcases.TC_Module1_Home -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

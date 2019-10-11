@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 27, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 161.801 sec <<< FAILURE! - in TestSuite
+verifyValidSearch(com.flowers.testcases.TC5_SearchByProductCode)  Time elapsed: 17.778 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='pdp__prodCode']"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SIL-WIN-17', ip: '10.116.186.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\sooryen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d590b26b66ca7c7ad99cb03763970649
+*** Element info: {Using=xpath, value=//div[@class='pdp__prodCode']}
+	at com.flowers.testcases.TC5_SearchByProductCode.verifyValidSearch(TC5_SearchByProductCode.java:41)
+

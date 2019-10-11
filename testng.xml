@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+	<test name="Home Page">
+		<classes>
+			<class name="com.flowers.testcases.TC_Module01_Home"></class>
+		</classes>
+	</test>
+<!-- 	<test name="Create Account Pop-up"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.flowers.testcases.TC_Module02_CreateAccount"></class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+<!-- 	<test name="Sign In Pop-up"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.flowers.testcases.TC_Module03_SignIn"></class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+<!-- 	<test name="Search By Keyword"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.flowers.testcases.TC_Module04_SearchByKeyword"></class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	<test name="Search By Product Code">
+		<classes>
+			<class
+				name="com.flowers.testcases.TC_Module05_SearchByProductCode"></class>
+		</classes>
+	</test>
+	<test name="Product Description Page">
+		<classes>
+			<class
+				name="com.flowers.testcases.TC_Module06_ProductDescription"></class>
+		</classes>
+	</test>
+	<test name="Added To Your Cart Pop-up">
+		<classes>
+			<class name="com.flowers.testcases.TC_Module07_AddedToYourCart"></class>
+		</classes>
+	</test>
+	<test name="Continue Shopping Page">
+		<classes>
+			<class name="com.flowers.testcases.TC_Module08_ContinueShopping"></class>
+		</classes>
+	</test>
+	<test name="Shopping Cart Page">
+		<classes>
+			<class name="com.flowers.testcases.TC_Module09_ShoppingCart"></class>
+		</classes>
+	</test>
+	<test name="Recipients Page">
+		<classes>
+			<class name="com.flowers.testcases.TC_Module10_Recipients"></class>
+		</classes>
+	</test>
+</suite>

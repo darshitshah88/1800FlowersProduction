@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\sooryen\eclipse-workspace\1800FlowersProduction\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">27 methods, 1 failed,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC5_SearchByProductCode" hash-for-method="verifyValidSearch">verifyValidSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC1_Home" hash-for-method="addTestCaseName">addTestCaseName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC3_SignIn" hash-for-method="addTestCaseName">addTestCaseName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC4_SearchByKeyword" hash-for-method="addTestCaseName">addTestCaseName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC5_SearchByProductCode" hash-for-method="addTestCaseName">addTestCaseName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC4_SearchByKeyword" hash-for-method="verifyBlankSearch">verifyBlankSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC5_SearchByProductCode" hash-for-method="verifyBlankSearch">verifyBlankSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC1_Home" hash-for-method="verifyBrowserLaunched">verifyBrowserLaunched</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC1_Home" hash-for-method="verifyHomeTitle">verifyHomeTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC4_SearchByKeyword" hash-for-method="verifyInvalidSearch">verifyInvalidSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC5_SearchByProductCode" hash-for-method="verifyInvalidSearch">verifyInvalidSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC1_Home" hash-for-method="verifyLogo">verifyLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC1_Home" hash-for-method="verifyMouseHover">verifyMouseHover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC4_SearchByKeyword" hash-for-method="verifyNumberOfSearchResults">verifyNumberOfSearchResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC4_SearchByKeyword" hash-for-method="verifySearchResultsFirst">verifySearchResultsFirst</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC4_SearchByKeyword" hash-for-method="verifySearchResultsTitle">verifySearchResultsTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC5_SearchByProductCode" hash-for-method="verifySearchResultsTitle">verifySearchResultsTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC3_SignIn" hash-for-method="verifySignInPopUpTitle">verifySignInPopUpTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC3_SignIn" hash-for-method="verifySignInWithBlankDataFields">verifySignInWithBlankDataFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC3_SignIn" hash-for-method="verifySignInWithBlankEmail">verifySignInWithBlankEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC3_SignIn" hash-for-method="verifySignInWithBlankPassword">verifySignInWithBlankPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC3_SignIn" hash-for-method="verifySignInWithInvalidData">verifySignInWithInvalidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC3_SignIn" hash-for-method="verifySignInWithInvalidEmail">verifySignInWithInvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC3_SignIn" hash-for-method="verifySignInWithInvalidPassword">verifySignInWithInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC3_SignIn" hash-for-method="verifySignInWithValidData">verifySignInWithValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC3_SignIn" hash-for-method="verifySwitchWindow">verifySwitchWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.flowers.testcases.TC4_SearchByKeyword" hash-for-method="verifyValidSearch">verifyValidSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.flowers.testcases.TC5_SearchByProductCode</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidSearch">
+                  </a> <!-- verifyValidSearch -->
+                  <span class="method-name">verifyValidSearch</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;pdp__prodCode&apos;]&quot;}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;SIL-WIN-17&apos;, ip: &apos;10.116.186.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\sooryen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d590b26b66ca7c7ad99cb03763970649
+*** Element info: {Using=xpath, value=//div[@class=&apos;pdp__prodCode&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at com.flowers.utils.Utility.getElementByxpath(Utility.java:56)
+	at com.flowers.action.A5_SearchByProductCode.verifyValidSearch(A5_SearchByProductCode.java:88)
+	at com.flowers.testcases.TC5_SearchByProductCode.verifyValidSearch(TC5_SearchByProductCode.java:41)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.flowers.testcases.TC1_Home</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addTestCaseName">
+                  </a> <!-- addTestCaseName -->
+                  <span class="method-name">addTestCaseName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBrowserLaunched">
+                  </a> <!-- verifyBrowserLaunched -->
+                  <span class="method-name">verifyBrowserLaunched</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomeTitle">
+                  </a> <!-- verifyHomeTitle -->
+                  <span class="method-name">verifyHomeTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogo">
+                  </a> <!-- verifyLogo -->
+                  <span class="method-name">verifyLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMouseHover">
+                  </a> <!-- verifyMouseHover -->
+                  <span class="method-name">verifyMouseHover</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.flowers.testcases.TC3_SignIn</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addTestCaseName">
+                  </a> <!-- addTestCaseName -->
+                  <span class="method-name">addTestCaseName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignInPopUpTitle">
+                  </a> <!-- verifySignInPopUpTitle -->
+                  <span class="method-name">verifySignInPopUpTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignInWithBlankDataFields">
+                  </a> <!-- verifySignInWithBlankDataFields -->
+                  <span class="method-name">verifySignInWithBlankDataFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignInWithBlankEmail">
+                  </a> <!-- verifySignInWithBlankEmail -->
+                  <span class="method-name">verifySignInWithBlankEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignInWithBlankPassword">
+                  </a> <!-- verifySignInWithBlankPassword -->
+                  <span class="method-name">verifySignInWithBlankPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignInWithInvalidData">
+                  </a> <!-- verifySignInWithInvalidData -->
+                  <span class="method-name">verifySignInWithInvalidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignInWithInvalidEmail">
+                  </a> <!-- verifySignInWithInvalidEmail -->
+                  <span class="method-name">verifySignInWithInvalidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignInWithInvalidPassword">
+                  </a> <!-- verifySignInWithInvalidPassword -->
+                  <span class="method-name">verifySignInWithInvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignInWithValidData">
+                  </a> <!-- verifySignInWithValidData -->
+                  <span class="method-name">verifySignInWithValidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySwitchWindow">
+                  </a> <!-- verifySwitchWindow -->
+                  <span class="method-name">verifySwitchWindow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.flowers.testcases.TC4_SearchByKeyword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addTestCaseName">
+                  </a> <!-- addTestCaseName -->
+                  <span class="method-name">addTestCaseName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBlankSearch">
+                  </a> <!-- verifyBlankSearch -->
+                  <span class="method-name">verifyBlankSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidSearch">
+                  </a> <!-- verifyInvalidSearch -->
+                  <span class="method-name">verifyInvalidSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNumberOfSearchResults">
+                  </a> <!-- verifyNumberOfSearchResults -->
+                  <span class="method-name">verifyNumberOfSearchResults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchResultsFirst">
+                  </a> <!-- verifySearchResultsFirst -->
+                  <span class="method-name">verifySearchResultsFirst</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchResultsTitle">
+                  </a> <!-- verifySearchResultsTitle -->
+                  <span class="method-name">verifySearchResultsTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidSearch">
+                  </a> <!-- verifyValidSearch -->
+                  <span class="method-name">verifyValidSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.flowers.testcases.TC5_SearchByProductCode</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addTestCaseName">
+                  </a> <!-- addTestCaseName -->
+                  <span class="method-name">addTestCaseName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBlankSearch">
+                  </a> <!-- verifyBlankSearch -->
+                  <span class="method-name">verifyBlankSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidSearch">
+                  </a> <!-- verifyInvalidSearch -->
+                  <span class="method-name">verifyInvalidSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchResultsTitle">
+                  </a> <!-- verifySearchResultsTitle -->
+                  <span class="method-name">verifySearchResultsTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sooryen\eclipse-workspace\1800FlowersProduction\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;Home Page&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.flowers.testcases.TC1_Home&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Home Page --&gt;
+  &lt;test name=&quot;Create Account Pop-up&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.flowers.testcases.TC3_SignIn&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create Account Pop-up --&gt;
+  &lt;test name=&quot;Search By Keyword&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.flowers.testcases.TC4_SearchByKeyword&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search By Keyword --&gt;
+  &lt;test name=&quot;Search By Product Code&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.flowers.testcases.TC5_SearchByProductCode&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search By Product Code --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Home Page (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Create Account Pop-up (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search By Keyword (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search By Product Code (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(27);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyNumberOfSearchResults')
+data.setCell(0, 2, 'com.flowers.testcases.TC4_SearchByKeyword')
+data.setCell(0, 3, 56103);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifySignInWithValidData')
+data.setCell(1, 2, 'com.flowers.testcases.TC3_SignIn')
+data.setCell(1, 3, 22267);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyValidSearch')
+data.setCell(2, 2, 'com.flowers.testcases.TC4_SearchByKeyword')
+data.setCell(2, 3, 18808);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyValidSearch')
+data.setCell(3, 2, 'com.flowers.testcases.TC5_SearchByProductCode')
+data.setCell(3, 3, 17560);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifySearchResultsFirst')
+data.setCell(4, 2, 'com.flowers.testcases.TC4_SearchByKeyword')
+data.setCell(4, 3, 8362);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifySignInPopUpTitle')
+data.setCell(5, 2, 'com.flowers.testcases.TC3_SignIn')
+data.setCell(5, 3, 4385);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyInvalidSearch')
+data.setCell(6, 2, 'com.flowers.testcases.TC4_SearchByKeyword')
+data.setCell(6, 3, 3594);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyInvalidSearch')
+data.setCell(7, 2, 'com.flowers.testcases.TC5_SearchByProductCode')
+data.setCell(7, 3, 3205);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifySignInWithBlankDataFields')
+data.setCell(8, 2, 'com.flowers.testcases.TC3_SignIn')
+data.setCell(8, 3, 542);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyBlankSearch')
+data.setCell(9, 2, 'com.flowers.testcases.TC5_SearchByProductCode')
+data.setCell(9, 3, 537);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifySignInWithBlankEmail')
+data.setCell(10, 2, 'com.flowers.testcases.TC3_SignIn')
+data.setCell(10, 3, 423);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifySignInWithInvalidEmail')
+data.setCell(11, 2, 'com.flowers.testcases.TC3_SignIn')
+data.setCell(11, 3, 388);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifySignInWithBlankPassword')
+data.setCell(12, 2, 'com.flowers.testcases.TC3_SignIn')
+data.setCell(12, 3, 361);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifySignInWithInvalidData')
+data.setCell(13, 2, 'com.flowers.testcases.TC3_SignIn')
+data.setCell(13, 3, 335);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifySwitchWindow')
+data.setCell(14, 2, 'com.flowers.testcases.TC3_SignIn')
+data.setCell(14, 3, 322);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifySignInWithInvalidPassword')
+data.setCell(15, 2, 'com.flowers.testcases.TC3_SignIn')
+data.setCell(15, 3, 300);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyMouseHover')
+data.setCell(16, 2, 'com.flowers.testcases.TC1_Home')
+data.setCell(16, 3, 152);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyBlankSearch')
+data.setCell(17, 2, 'com.flowers.testcases.TC4_SearchByKeyword')
+data.setCell(17, 3, 123);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyLogo')
+data.setCell(18, 2, 'com.flowers.testcases.TC1_Home')
+data.setCell(18, 3, 39);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'addTestCaseName')
+data.setCell(19, 2, 'com.flowers.testcases.TC1_Home')
+data.setCell(19, 3, 22);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyHomeTitle')
+data.setCell(20, 2, 'com.flowers.testcases.TC1_Home')
+data.setCell(20, 3, 12);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifySearchResultsTitle')
+data.setCell(21, 2, 'com.flowers.testcases.TC4_SearchByKeyword')
+data.setCell(21, 3, 12);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'addTestCaseName')
+data.setCell(22, 2, 'com.flowers.testcases.TC5_SearchByProductCode')
+data.setCell(22, 3, 11);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyBrowserLaunched')
+data.setCell(23, 2, 'com.flowers.testcases.TC1_Home')
+data.setCell(23, 3, 9);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifySearchResultsTitle')
+data.setCell(24, 2, 'com.flowers.testcases.TC5_SearchByProductCode')
+data.setCell(24, 3, 8);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'addTestCaseName')
+data.setCell(25, 2, 'com.flowers.testcases.TC3_SignIn')
+data.setCell(25, 3, 4);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'addTestCaseName')
+data.setCell(26, 2, 'com.flowers.testcases.TC4_SearchByKeyword')
+data.setCell(26, 3, 4);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.flowers.testcases.TC1_Home</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyGDPR</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.flowers.testcases.TC5_SearchByProductCode</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">startExecution</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.flowers.testcases.TC1_Home</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addTestCaseName</span>
+                <span class="method-start">14454 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=addTestCaseName status=SUCCESS method=TC1_Home.addTestCaseName()[pri:1, instance:co...)</span>
+                <span class="method-start">14476 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyBrowserLaunched</span>
+                <span class="method-start">14478 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyBrowserLaunched status=SUCCESS method=TC1_Home.verifyBrowserLaunched()[pri:2,...)</span>
+                <span class="method-start">14487 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyHomeTitle</span>
+                <span class="method-start">14487 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyHomeTitle status=SUCCESS method=TC1_Home.verifyHomeTitle()[pri:3, instance:co...)</span>
+                <span class="method-start">14499 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyLogo</span>
+                <span class="method-start">14499 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyLogo status=SUCCESS method=TC1_Home.verifyLogo()[pri:4, instance:com.flowers....)</span>
+                <span class="method-start">14538 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyMouseHover</span>
+                <span class="method-start">14538 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyMouseHover status=SUCCESS method=TC1_Home.verifyMouseHover()[pri:6, instance:...)</span>
+                <span class="method-start">14691 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.flowers.testcases.TC3_SignIn</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addTestCaseName</span>
+                <span class="method-start">14816 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=addTestCaseName status=SUCCESS method=TC3_SignIn.addTestCaseName()[pri:1, instance:...)</span>
+                <span class="method-start">14821 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifySwitchWindow</span>
+                <span class="method-start">14821 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifySwitchWindow status=SUCCESS method=TC3_SignIn.verifySwitchWindow()[pri:2, ins...)</span>
+                <span class="method-start">15144 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifySignInPopUpTitle</span>
+                <span class="method-start">15144 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifySignInPopUpTitle status=SUCCESS method=TC3_SignIn.verifySignInPopUpTitle()[pr...)</span>
+                <span class="method-start">19529 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifySignInWithBlankDataFields</span>
+                <span class="method-start">19530 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifySignInWithBlankDataFields status=SUCCESS method=TC3_SignIn.verifySignInWithBl...)</span>
+                <span class="method-start">20072 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifySignInWithBlankEmail</span>
+                <span class="method-start">20072 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifySignInWithBlankEmail status=SUCCESS method=TC3_SignIn.verifySignInWithBlankEm...)</span>
+                <span class="method-start">20496 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifySignInWithBlankPassword</span>
+                <span class="method-start">20496 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifySignInWithBlankPassword status=SUCCESS method=TC3_SignIn.verifySignInWithBlan...)</span>
+                <span class="method-start">20857 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifySignInWithInvalidData</span>
+                <span class="method-start">20857 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifySignInWithInvalidData status=SUCCESS method=TC3_SignIn.verifySignInWithInvali...)</span>
+                <span class="method-start">21192 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifySignInWithInvalidEmail</span>
+                <span class="method-start">21193 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifySignInWithInvalidEmail status=SUCCESS method=TC3_SignIn.verifySignInWithInval...)</span>
+                <span class="method-start">21581 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifySignInWithInvalidPassword</span>
+                <span class="method-start">21582 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifySignInWithInvalidPassword status=SUCCESS method=TC3_SignIn.verifySignInWithIn...)</span>
+                <span class="method-start">21882 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifySignInWithValidData</span>
+                <span class="method-start">21882 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifySignInWithValidData status=SUCCESS method=TC3_SignIn.verifySignInWithValidDat...)</span>
+                <span class="method-start">44149 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.flowers.testcases.TC4_SearchByKeyword</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addTestCaseName</span>
+                <span class="method-start">44177 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=addTestCaseName status=SUCCESS method=TC4_SearchByKeyword.addTestCaseName()[pri:1, ...)</span>
+                <span class="method-start">44181 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyBlankSearch</span>
+                <span class="method-start">44181 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyBlankSearch status=SUCCESS method=TC4_SearchByKeyword.verifyBlankSearch()[pri...)</span>
+                <span class="method-start">44304 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidSearch</span>
+                <span class="method-start">44304 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyInvalidSearch status=SUCCESS method=TC4_SearchByKeyword.verifyInvalidSearch()...)</span>
+                <span class="method-start">47898 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifySearchResultsTitle</span>
+                <span class="method-start">47899 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifySearchResultsTitle status=SUCCESS method=TC4_SearchByKeyword.verifySearchResu...)</span>
+                <span class="method-start">47911 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyNumberOfSearchResults</span>
+                <span class="method-start">47911 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyNumberOfSearchResults status=SUCCESS method=TC4_SearchByKeyword.verifyNumberO...)</span>
+                <span class="method-start">104014 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifySearchResultsFirst</span>
+                <span class="method-start">104014 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifySearchResultsFirst status=SUCCESS method=TC4_SearchByKeyword.verifySearchResu...)</span>
+                <span class="method-start">112376 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyValidSearch</span>
+                <span class="method-start">112376 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyValidSearch status=SUCCESS method=TC4_SearchByKeyword.verifyValidSearch()[pri...)</span>
+                <span class="method-start">131184 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.flowers.testcases.TC5_SearchByProductCode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addTestCaseName</span>
+                <span class="method-start">131246 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=addTestCaseName status=SUCCESS method=TC5_SearchByProductCode.addTestCaseName()[pri...)</span>
+                <span class="method-start">131257 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyBlankSearch</span>
+                <span class="method-start">131257 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyBlankSearch status=SUCCESS method=TC5_SearchByProductCode.verifyBlankSearch()...)</span>
+                <span class="method-start">131794 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidSearch</span>
+                <span class="method-start">131794 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyInvalidSearch status=SUCCESS method=TC5_SearchByProductCode.verifyInvalidSear...)</span>
+                <span class="method-start">135000 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifySearchResultsTitle</span>
+                <span class="method-start">135000 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifySearchResultsTitle status=SUCCESS method=TC5_SearchByProductCode.verifySearch...)</span>
+                <span class="method-start">135008 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyValidSearch</span>
+                <span class="method-start">135008 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyValidSearch status=FAILURE method=TC5_SearchByProductCode.verifyValidSearch()...)</span>
+                <span class="method-start">152782 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">stopExecution</span>
+                <span class="method-start">153306 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
